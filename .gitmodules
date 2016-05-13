@@ -1,3 +1,9 @@
 [submodule "sources_non_forked/molokai"]
 	path = sources_non_forked/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "sources_non_forked/ansible_vim"]
+	path = sources_non_forked/ansible_vim
+	url = https://github.com/pearofducks/ansible-vim.git
+[submodule "sources_non_forked/python-mode"]
+	path = sources_non_forked/python-mode
+	url = https://github.com/klen/python-mode.git
