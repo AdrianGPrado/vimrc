@@ -4,6 +4,14 @@
 let python_highlight_all = 1
 au FileType python syn keyword pythonDecorator True None False self
 
+" Set color scheme to molokai
+"try
+"    au BufEnter *.py colorscheme molokai
+"    let g:molokai_original = 1
+"    let g:rehash256 = 1
+"catch
+"endtry
+
 au BufNewFile,BufRead *.jinja set syntax=htmljinja
 au BufNewFile,BufRead *.mako set ft=mako
 
